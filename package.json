@@ -11,9 +11,11 @@
     "axios": "^0.21.1",
     "element-plus": "^1.0.2-beta.33",
     "postcss": "^8.2.7",
+    "rxjs": "^6.6.6",
     "tailwindcss": "^2.0.3",
     "vue": "^3.0.5",
     "vue-router": "^4.0.4",
+    "vue-rx": "^6.2.0",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
