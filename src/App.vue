@@ -1,11 +1,11 @@
 <template>
-  <figure class="flex p-8 justify-center bg-red-50">
+  <main class="flex justify-center bg-red-50">
     <div class="pt-6 md:p-8 text-center md:text-left space-y-4 bg-red-100 rounded  w-1/2">
       <blockquote>
         <p class="text-lg font-semibold">
-          “Tailwind CSS is the only framework that I've seen scale
+          Tailwind CSS is the only framework that I've seen scale
           on large teams. It’s easy to customize, adapts to any design,
-          and the build size is tiny.”
+          and the build size is tiny.
         </p>
       </blockquote>
       <div class="font-medium">
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-  </figure>
+  </main>
 </template>
 
 <script lang="ts">
@@ -26,7 +26,6 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'App'
 })
-
 
 </script>
 
