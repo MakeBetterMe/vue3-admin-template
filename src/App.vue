@@ -1,13 +1,11 @@
 <template>
-  <main class="flex justify-center bg-red-50">
-    <div class="pt-6 md:p-8 text-center md:text-left space-y-4 bg-red-100 rounded  w-1/2">
-      <blockquote>
-        <p class="text-lg font-semibold">
-          Tailwind CSS is the only framework that I've seen scale
-          on large teams. It’s easy to customize, adapts to any design,
-          and the build size is tiny.
-        </p>
-      </blockquote>
+  <main class="flex justify-center bg-red-50 p-8">
+    <div class="pt-6 md:p-8 text-center text-left space-y-4 bg-red-100 rounded  w-1/2">
+      <p class="text-center font-semibold">
+        Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.
+      </p>
       <div class="font-medium">
         <div class="text-cyan-600">
           Sarah Dayan
@@ -21,11 +19,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import {defineComponent} from 'vue'
 
 export default defineComponent({
   name: 'App'
-  
 })
 
 </script>
